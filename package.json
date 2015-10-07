@@ -1,0 +1,28 @@
+{
+    "name": "datatables.net-fixedcolumns-jqui",
+    "version": "3.1.0",
+    "description": "FixedColumns for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
+    "files": [
+        "css/fixedColumns.jqueryui.css"
+    ],
+    "main": "./js/fixedColumns.jqueryui.js",
+    "keywords": [
+        "fixed columns",
+        "DataTables",
+        "jQuery",
+        "table",
+        "jQuery UI"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-jqui": ">=1.10.9",
+        "datatables.net-fixedcolumns": ">=3.1.0"
+    }
+}
