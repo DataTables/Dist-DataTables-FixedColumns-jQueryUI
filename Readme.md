@@ -19,7 +19,7 @@ npm install datatables.net-fixedcolumns-jqui
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-fixedcolumns-jqui' )( $ );
+require( 'datatables.net-fixedcolumns-jqui' )( window, $ );
 ```
 
 ### bower
