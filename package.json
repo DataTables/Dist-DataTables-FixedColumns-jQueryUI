@@ -5,7 +5,6 @@
     "files": [
         "css/fixedColumns.jqueryui.css"
     ],
-    "main": "./js/fixedColumns.jqueryui.js",
     "keywords": [
         "fixed columns",
         "DataTables",
