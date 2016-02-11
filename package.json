@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-fixedcolumns-jqui",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "FixedColumns for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/fixedColumns.jqueryui.css"
