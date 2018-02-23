@@ -1,9 +1,10 @@
 {
     "name": "datatables.net-fixedcolumns-jqui",
-    "version": "3.2.3",
+    "version": "3.2.4",
     "description": "FixedColumns for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/fixedColumns.jqueryui.css",
     "keywords": [
@@ -23,10 +24,11 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-jqui": "^1.10.15",
-        "datatables.net-fixedcolumns": "3.2.3"
+        "datatables.net-fixedcolumns": "3.2.4"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-FixedColumns-jQueryUI.git"
-    }
+    },
+    "main": "js/fixedColumns.jqueryui.js"
 }
