@@ -3,6 +3,7 @@
     "description": "FixedColumns for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/fixedColumns.jqueryui.js",
     "style": "css/fixedColumns.jqueryui.css",
+    "types": "./types/fixedColumns.jQueryUI.d.ts",
     "version": "3.3.2",
     "files": [
         "css/**/*.css",

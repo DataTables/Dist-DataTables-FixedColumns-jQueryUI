@@ -17,9 +17,15 @@ For inclusion of this library using a standard `<script>` tag, rather than using
 npm install datatables.net-fixedcolumns-jqui
 ```
 
+ES3 Syntax
 ```
 var $ = require( 'jquery' );
 var dt = require( 'datatables.net-fixedcolumns-jqui' )( window, $ );
+```
+
+ES6 Syntax
+```
+import 'datatables.net-fixedcolumns-jqui'
 ```
 
 ### bower
