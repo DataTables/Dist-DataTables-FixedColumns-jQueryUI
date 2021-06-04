@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.jqueryui.js",
     "style": "css/fixedColumns.jqueryui.css",
     "types": "./types/fixedColumns.jQueryUI.d.ts",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -12,7 +12,7 @@
     "keywords": [
         "FixedColumns",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -20,9 +20,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=3.3.2",
-        "datatables.net-jqui": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-jqui": "^1.10.15",
+        "datatables.net-fixedcolumns": "3.3.3"
     },
     "moduleType": [
         "globals",
