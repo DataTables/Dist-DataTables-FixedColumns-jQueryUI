@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>FixedColumns  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-fixedcolumns" version="3.3.3"/>
-            <dependency id="datatables.net-jqui" version="1.10.25"/>
+            <dependency id="datatables.net-fixedcolumns" version="4.0.0"/>
+            <dependency id="datatables.net-jqui" version="1.11.3"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,6 +26,8 @@
         <file src="css/fixedColumns.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/fixedColumns.jqueryui.min.css" target="content\Content"/>
         <file src="css/fixedColumns.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/fixedColumns.jqueryui.d.ts" target="content\Scripts"/>
+        <file src="types/fixedColumns.jqueryui.d.ts" target="contentFiles\any\any\wwwroot\js"/>
         <file src="types/fixedColumns.jQueryUI.d.ts" target="content\Scripts"/>
         <file src="types/fixedColumns.jQueryUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
