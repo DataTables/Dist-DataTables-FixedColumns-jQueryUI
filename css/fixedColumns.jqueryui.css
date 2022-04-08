@@ -1,16 +1,7 @@
-table.dataTable thead th,
-table.dataTable tfoot th {
-  background-color: #f6f6f6 !important;
+table.dataTable tr > .dtfc-fixed-left,
+table.dataTable tr > .dtfc-fixed-right {
   z-index: 1;
-}
-table.dataTable tr.even td {
-  background-color: #ffffff;
-}
-table.dataTable tr.odd td {
-  background-color: #f9f9f9;
-}
-table.dataTable tr.selected td {
-  background-color: #a6b4cd;
+  background-color: white;
 }
 
 div.dtfc-right-top-blocker {
