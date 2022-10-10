@@ -1,16 +1,18 @@
 {
     "js": [
         "js/fixedColumns.jqueryui.js",
-        "js/fixedColumns.jqueryui.min.js"
+        "js/fixedColumns.jqueryui.min.js",
+        "js/fixedColumns.jqueryui.min.mjs",
+        "js/fixedColumns.jqueryui.mjs"
     ],
     "css": [
         "css/fixedColumns.jqueryui.css",
         "css/fixedColumns.jqueryui.min.css"
     ],
     "types": [
+        "types/fixedColumns.jqueryui.d.ts",
         "types/fixedColumns.jQueryUI.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/FixedColumns",
-    "last-tag": "4.0.2",
-    "last-sync": "2b798d0c1b56bc16423978aff215591d4d923f1f"
+    "last-tag": "4.1.0"
 }
