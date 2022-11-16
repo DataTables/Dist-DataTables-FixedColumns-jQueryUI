@@ -5,7 +5,7 @@
 (function( factory ){
 	if ( typeof define === 'function' && define.amd ) {
 		// AMD
-		define( ['jquery', 'datatables.net-ju', 'datatables.net-fixedcolumns'], function ( $ ) {
+		define( ['jquery', 'datatables.net-jqui', 'datatables.net-fixedcolumns'], function ( $ ) {
 			return factory( $, window, document );
 		} );
 	}
@@ -25,13 +25,12 @@
 			}
 
 			if ( ! $.fn.dataTable ) {
-				require('datatables.net-ju')(root, $);
+				require('datatables.net-jqui')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.FixedColumns ) {
 				require('datatables.net-fixedcolumns')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
