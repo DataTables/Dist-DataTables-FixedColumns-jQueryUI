@@ -5,7 +5,7 @@
     "module": "js/fixedColumns.jqueryui.mjs",
     "style": "css/fixedColumns.jqueryui.css",
     "types": "./types/types.d.ts",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
