@@ -15,7 +15,6 @@ table.dataTable tfoot tr > .dtfc-fixed-end {
   top: 0;
   bottom: 0;
   z-index: 3;
-  background-color: var(--dtfc-thead-cell_background);
 }
 table.dataTable tbody tr > .dtfc-fixed-start,
 table.dataTable tbody tr > .dtfc-fixed-end {
