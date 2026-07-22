@@ -1,4 +1,4 @@
-/*! FixedColumns jQuery UI styling 6.0.0-beta.1 for DataTables
+/*! FixedColumns jQuery UI styling 6.0.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-jqui";import FixedColumns from"datatables.net-fixedcolumns";export default DataTable;
