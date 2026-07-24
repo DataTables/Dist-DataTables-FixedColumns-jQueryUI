@@ -5,7 +5,7 @@
     "module": "js/fixedColumns.jqueryui.mjs",
     "style": "css/fixedColumns.jqueryui.css",
     "types": "./types/fixedColumns.jqueryui.d.ts",
-    "version": "6.0.0-beta.1",
+    "version": "6.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.0.0-beta.1",
-        "datatables.net-jqui": "^2"
+        "datatables.net-fixedcolumns": "6.0.0",
+        "datatables.net-jqui": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
