@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-fixedcolumns-jqui",
-    "description": "FixedColumns provides the ability to fix one or more columns to the left and / or right hand side of a DataTable that scrolls along the x-axis. This can be used if the columns show grouping, index or similar information. This is FixedColumns for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "description": "FixedColumns for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-FixedColumns-jQueryUI"
@@ -26,7 +26,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-fixedcolumns": ">=4.1.0",
-        "datatables.net/datatables.net-jqui": ">=1.12.1"
+        "datatables.net/datatables.net-fixedcolumns": "6.0.0",
+        "datatables.net/datatables.net-jqui": "^3"
     }
 }
