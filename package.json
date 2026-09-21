@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedcolumns-jqui",
     "description": "FixedColumns for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/fixedColumns.jqueryui.js",
-    "module": "js/fixedColumns.jqueryui.mjs",
-    "style": "css/fixedColumns.jqueryui.css",
+    "main": "./js/fixedColumns.jqueryui.js",
+    "module": "./js/fixedColumns.jqueryui.mjs",
+    "style": "./css/fixedColumns.jqueryui.css",
     "types": "./types/fixedColumns.jqueryui.d.ts",
     "version": "6.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedColumns",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedColumns.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedColumns.jqueryui.d.ts",
+            "import": "./js/fixedColumns.jqueryui.mjs",
+            "default": "./js/fixedColumns.jqueryui.mjs",
+            "require": "./js/fixedColumns.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedColumns.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
