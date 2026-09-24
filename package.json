@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedColumns.jqueryui.d.ts",
+            "style": "./css/fixedColumns.jqueryui.css",
             "import": "./js/fixedColumns.jqueryui.mjs",
-            "default": "./js/fixedColumns.jqueryui.mjs",
-            "require": "./js/fixedColumns.jqueryui.js"
+            "require": "./js/fixedColumns.jqueryui.js",
+            "default": "./js/fixedColumns.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
