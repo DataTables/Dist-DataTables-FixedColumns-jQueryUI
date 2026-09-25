@@ -5,7 +5,7 @@
     "module": "./js/fixedColumns.jqueryui.mjs",
     "style": "./css/fixedColumns.jqueryui.css",
     "types": "./types/fixedColumns.jqueryui.d.ts",
-    "version": "6.1.0",
+    "version": "6.1.1",
     "files": [
         "js",
         "css",
@@ -21,7 +21,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.1.0",
+        "datatables.net-fixedcolumns": "6.1.1",
         "datatables.net-jqui": "^3.1"
     },
     "author": {
